@@ -19,14 +19,14 @@ pip3 install requests openai datetime
 To deploy this script, you first have to set your environmental variables. These variables are listed below:
 
 * TIME_CONSTRAINT="Number of Days from current measured back in time to track NVD data"
-- example: export TIME_CONSTRAINT=1
+    - example: export TIME_CONSTRAINT=1
 * CVSS_SEVERITY="Priority of the Data Provided"
-- example: export CVSS_SEVERITY="CRITICAL"
-- example: export CVSS_SEVERITY="HIGH"
-- example: export CVSS_SEVERITY="MEDIUM"
-- example: export CVSS_SEVERITY="LOW"
+    - example: export CVSS_SEVERITY="CRITICAL"
+    - example: export CVSS_SEVERITY="HIGH"
+    - example: export CVSS_SEVERITY="MEDIUM"
+    - example: export CVSS_SEVERITY="LOW"
 * OAI_TOKEN="OpenAi API Token"
-- example: export OAI_TOKEN="I'm not giving an example token here, but you can build your own by making an API account with openAI"
+    - example: export OAI_TOKEN="I'm not giving an example token here, but you can build your own by making an API account with openAI"
 
 #### Running the Local Deployment
 
