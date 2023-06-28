@@ -26,7 +26,7 @@ To deploy this script, you first have to set your environmental variables. These
     - example: export CVSS_SEVERITY="MEDIUM"
     - example: export CVSS_SEVERITY="LOW"
 * OAI_TOKEN="OpenAi API Token"
-    - example: export OAI_TOKEEN="you can build your own by making an API account with openAI"
+    - example: export OAI_TOKEN="you can build your own by making an API account with openAI"
 
 #### Running the Local Deployment
 
