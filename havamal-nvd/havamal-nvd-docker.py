@@ -150,4 +150,4 @@ for i, description in enumerate(descriptions):
     cve_message = f"CVE-ID: {cve_id}\nPublish Date: {publish_date}\n\nFormal Description: \n{formal_description}\n\nExpanded Interpretation (Provided by ChatGPT): \n{message_content}\n\nCVSS Metrics:{cvss_metrics}\n"
     final_string += cve_message
     print("Email Sent")
-    send_email(final_string)
+    send_email(str(final_string))
