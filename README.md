@@ -71,7 +71,7 @@ pip3 install requests openai pypdf2
 1. Write your resume, in a format that does not use any special formatting (so chatgpt can read it)
 2. Place your resume in the havamal-coverletter folder, and name it resume.pdf (make sure you export your resume in pdf format)
 3. Copy and paste the job application you are applying to as a txt document named application.txt, and then add that to the havamal-coverletter folder. 
-4. run the following command: "python3 havamal-coverletter.py
+4. run the following command: `python3 havamal-coverletter.py`
 5. Watch your cover letter print out on the screen!
 
 ## Summary Builder
@@ -91,8 +91,9 @@ pip3 install requests openai pypdf2
 
 ### Building the Local Deployment
 1. place the document you wish to analyze into the havamal-summary folder, and name it document.pdf
-2. run the following command: "export OAI_TOKEN="TOKEN VALUE"
-   1. Where TOKEN VALUE is your openai token. 
-3. run the following command: "python3 havamal-summary.py
+2. run the following command: 
+   1. `export OAI_TOKEN="TOKEN VALUE`
+   2. Where TOKEN VALUE is your openai token. 
+3. run the following command: `python3 havamal-summary.py`
 4. Watch the analysis print out on the screen (This tool has not been well optimized yet, so expect a document to take a few minutes to load).
 5. If the run fails because of platform availability, simply re-run the command in step 2. It will return to it's last step in the process. 
