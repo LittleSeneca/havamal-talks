@@ -91,6 +91,8 @@ pip3 install requests openai pypdf2
 
 ### Building the Local Deployment
 1. place the document you wish to analyze into the havamal-summary folder, and name it document.pdf
-2. run the following command: "python3 havamal-summary.py
-3. Watch the analysis print out on the screen (This tool has not been well optimized yet, so expect a document to take a few minutes to load).
-4. If the run fails because of platform availability, simply re-run the command in step 2. It will return to it's last step in the process. 
+2. run the following command: "export OAI_TOKEN="TOKEN VALUE"
+   1. Where TOKEN VALUE is your openai token. 
+3. run the following command: "python3 havamal-summary.py
+4. Watch the analysis print out on the screen (This tool has not been well optimized yet, so expect a document to take a few minutes to load).
+5. If the run fails because of platform availability, simply re-run the command in step 2. It will return to it's last step in the process. 
